@@ -24,7 +24,7 @@ public:
      *
      * @param[in] serial The serial port to use to communicate with the ODrive
      */
-    ODriveArduino(const Stream& serial);
+    ODriveArduino(Stream& serial);
 
     /**
      * @brief Set the Position of a motor
